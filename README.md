@@ -23,7 +23,7 @@ Toolgankelijk is an ongoing project at FDND-agency that has been developed by al
 
 With the application you can run a performance audit, to check the status of your website. After you run the test it you will see the results of the automatically tests. There are some audits you have to check manually. There is a second [repositry](https://github.com/fdnd-agency/toolgankelijk-audit). When you need to run a performance audit make sure you run this in the background.
 
-![image](static/readme-images/partners-overview.png)
+<img width="1440" height="1047" alt="Homepage" src="https://github.com/user-attachments/assets/8efc8e33-15d5-4500-892a-59f1c973a3ed" />
 
 ## Design System
 
@@ -36,25 +36,26 @@ This design system serves as the blueprint for the visual direction of the appli
 ## New Design
 
 This is the most up to date design of the application with the design system implemented in Figma. It reflects the current visual direction and the agreed design choices for the project. However, the design still needs to be implemented into the official application, meaning the next step is to translate these Figma components and styles into the working product so that the interface fully aligns with the defined design system.
-Homepage
+
+<strong>Homepage</strong>
 
 <img width="1440" height="1047" alt="Homepage" src="https://github.com/user-attachments/assets/8efc8e33-15d5-4500-892a-59f1c973a3ed" />
 
 By applying a layout grid and a fixed color palette to the homepage, it already looks much more structured than before. The new design has not yet been fully implemented on the home page, but it is clearly moving in the right direction.
 
-Partner Cards
+<strong>Partner Cards</strong>
 
 <img width="624" height="196" alt="Partner Cards" src="https://github.com/user-attachments/assets/185b5829-c3b2-450a-93b9-8df78267d73f" />
 
 By only adjusting the color palette, the card already feels and looks much less cluttered and more balanced. The reduced contrast and more consistent use of colors help improve readability and create a calmer visual structure, making the content easier to scan and understand.
 
-URL screen
+<strong>URL screen</strong>
 
 <img width="1440" height="1047" alt="URL screen" src="https://github.com/user-attachments/assets/16f7d012-1aa3-4b18-bb81-6fd1dc48149a" />
 
 I have changed the flow of the website by combining the URL screen with the WCAG (Web Content Accessibility Guidelines). This improves the overall understandability of the application and creates a more logical and streamlined user experience. By bringing these elements together, users no longer need to switch between separate sections, which reduces friction and makes the navigation more intuitive. As a result, the information is easier to access and the structure of the application feels more coherent and consistent.
 
-Checklist
+<strong>Checklist</strong>
 
 <img width="1440" height="1047" alt="RMC url checklist3" src="https://github.com/user-attachments/assets/91ae67e0-328d-4c97-93ea-89f20662a452" />
 
