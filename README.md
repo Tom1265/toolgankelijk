@@ -31,7 +31,7 @@ With the application you can run a performance audit, to check the status of you
 
 This design system serves as the blueprint for the visual direction of the application within this project. It defines design decisions, style elements, and reusable components, creating a clear and consistent foundation for the further development of the product. In this way, the team can work from the same design principles, making it easier to add new features without compromising the overall consistency and coherence of the application.
 
-<a href="[url](https://www.figma.com/design/u9GyhD6jIajigsWlHYBuWj/Design-System---Vervoerregio-Amsterdam?node-id=1-830&t=IC3XiL7krvLuWoKn-1)">Design System figma file</a>
+<a href="https://www.figma.com/design/u9GyhD6jIajigsWlHYBuWj/Design-System---Vervoerregio-Amsterdam?node-id=1-830&t=IC3XiL7krvLuWoKn-1">Design System figma file</a>
 
 ## New Design
 
