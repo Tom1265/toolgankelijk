@@ -27,69 +27,38 @@ With the application you can run a performance audit, to check the status of you
 
 ## Design System
 
-<img width="1640" height="930" alt="image" src="https://github.com/user-attachments/assets/3941c7de-52fa-4483-b160-72a68c2e2002" />
+<img width="234" height="482" alt="Screenshot 2026-06-03 at 13 15 52" src="https://github.com/user-attachments/assets/85ba2db4-a7d7-40bf-a840-51b76b77b32d" />
 
-Due to implenting the new design, we proposed the design system according the atomic design. The design system is made out of the Atomic Design where templates are build out of a hierarchy of components this is divided by: Atoms, Molecules, Organisms and Templates. 
+This design system serves as the blueprint for the visual direction of the application within this project. It defines design decisions, style elements, and reusable components, creating a clear and consistent foundation for the further development of the product. In this way, the team can work from the same design principles, making it easier to add new features without compromising the overall consistency and coherence of the application.
 
-These are the components that are made inside the design system
+<a href="[url](https://www.figma.com/design/u9GyhD6jIajigsWlHYBuWj/Design-System---Vervoerregio-Amsterdam?node-id=1-830&t=IC3XiL7krvLuWoKn-1)">Design System figma file</a>
 
-Atoms
-- Icons
-- Logo
-- Seperator
+## New Design
 
-Molecules
-- Alert
-- Checkbox
-- Heading
-- Input
-- Loader
-- NavButton
-- Progressbar
-- Search
+This is the most up to date design of the application with the design system implemented in Figma. It reflects the current visual direction and the agreed design choices for the project. However, the design still needs to be implemented into the official application, meaning the next step is to translate these Figma components and styles into the working product so that the interface fully aligns with the defined design system.
+Homepage
 
-Organisms
-- Breadcrumbs
-- HamburgerMenu
-- Pages
+<img width="1440" height="1047" alt="Homepage" src="https://github.com/user-attachments/assets/8efc8e33-15d5-4500-892a-59f1c973a3ed" />
 
-Templates
-- Header
-- Card
-- Checklist
-- Dialog
-- Sidebar
-- SubHeader
+By applying a layout grid and a fixed color palette to the homepage, it already looks much more structured than before. The new design has not yet been fully implemented on the home page, but it is clearly moving in the right direction.
 
-The components are all composiitions of the code which can be reused everytime. The information will be loaded on each pages.
+Partner Cards
 
-## New Features
+<img width="624" height="196" alt="Partner Cards" src="https://github.com/user-attachments/assets/185b5829-c3b2-450a-93b9-8df78267d73f" />
 
-Since the last sprint review there are several changes in the application. We recognised that the design was bugging a lot so we simplified the code. Lots of code and component are refactored now. The header is simplified where you can navigate through all pages (info, account and partner overview). 
+By only adjusting the color palette, the card already feels and looks much less cluttered and more balanced. The reduced contrast and more consistent use of colors help improve readability and create a calmer visual structure, making the content easier to scan and understand.
 
-**Subheader**
+URL screen
 
-<img width="3024" height="390" alt="image" src="https://github.com/user-attachments/assets/e989e8df-49ef-420a-9c63-1674256418c2" />
+<img width="1440" height="1047" alt="URL screen" src="https://github.com/user-attachments/assets/16f7d012-1aa3-4b18-bb81-6fd1dc48149a" />
 
-In the subheader you will find the breadcrumbs which were in the header first. This was first placed in the header. You can navigate here through different urls and partners. You can also add a partner/url to the page with the add button. You can also search for the url/partners with the search tool in the right corner.
+I have changed the flow of the website by combining the URL screen with the WCAG (Web Content Accessibility Guidelines). This improves the overall understandability of the application and creates a more logical and streamlined user experience. By bringing these elements together, users no longer need to switch between separate sections, which reduces friction and makes the navigation more intuitive. As a result, the information is easier to access and the structure of the application feels more coherent and consistent.
 
-The subheader will be disabled on the principles page cause there only will be the filter function as a sidebar. On the subheader here is only the navigate back to the url oversight button.
+Checklist
 
-**Login and Accountpage**
+<img width="1440" height="1047" alt="RMC url checklist3" src="https://github.com/user-attachments/assets/91ae67e0-328d-4c97-93ea-89f20662a452" />
 
-<img width="935" height="987" alt="Screenshot (177)" src="https://github.com/user-attachments/assets/635364e8-6707-42e4-9c4b-5fd53e2f2825" />
-
-The login page has seen an massive design overhaul, allowing for a more welcoming appeareance. The account page has seen an overhaul too, now an user can signout and see their account details like email and username.
-
-**Checklist fix**  
-  The checklist is fully functional again, allowing users to manually audit the audit results.
-
-**Repository refactor**  
-  Repositories now inherit from a base repository class and use the Directus SDK client for REST and GraphQL queries.  
-  `UrlRepository` has been specifically refactored to use REST queries instead of the old GraphQL implementation.
-
-**Card component improvement**  
-  Progress bars in the card component are now validated correctly. If an invalid number is found, the percentage is set to `0` and a warning is thrown, this ensures that a user will never see infinity instead of a number.
+The overall checklist page was already in a strong state before I joined the project. The only necessary improvement was adding the option to switch between simplified language and the official language. By centralising this setting in one place, the checklist feels less cluttered and more focused, which improves the overall clarity and user experience.
 
 ## Datamodel 
 
