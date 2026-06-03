@@ -23,7 +23,7 @@ Toolgankelijk is an ongoing project at FDND-agency that has been developed by al
 
 With the application you can run a performance audit, to check the status of your website. After you run the test it you will see the results of the automatically tests. There are some audits you have to check manually. There is a second [repositry](https://github.com/fdnd-agency/toolgankelijk-audit). When you need to run a performance audit make sure you run this in the background.
 
-<img width="940" height="547" alt="Homepage" src="https://github.com/user-attachments/assets/8efc8e33-15d5-4500-892a-59f1c973a3ed" />
+<img width="1440" height="1047" alt="Homepage" src="https://github.com/user-attachments/assets/8efc8e33-15d5-4500-892a-59f1c973a3ed" />
 
 ## Design System
 
